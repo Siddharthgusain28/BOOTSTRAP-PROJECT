@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This single Page Website is made up from Bootstrap.">
+    <title>BootStrap Project </title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+
+
+    <style>
+        *{scroll-behavior: smooth;}
+        input{outline: none;}
+        .part-3{background: url(./img/bg1.webp) center top/cover;
+        padding: 10rem 0;}
+        .part-2 nav li a{font-weight: 500;}
+        .separator{width:20rem; height: 5px; background: #f00;}
+        .part-4,.part-5 h2 span{ color: aqua; }
+        .cosbtn{border-radius: 15px 0 ;}
+
+        .over{background:#c4c8c4; opacity: 0; transition: .5s;}
+        .over-img:hover .over{opacity: 1;}
+        .menu-img{border: 2px solid #fff; transition: .4s;}
+        .menu-img:hover{border: 2px dashed #f00  ;}
+        .part-6{background: url(./img/img3.webp) center top/cover;}
+        .offer{transition: .3s;}
+        .offer:hover{scale: 1.1;}
+        .part-8{background: url(./img/img4.webp) center top/cover;}
+
+    </style>
+
+    
+
+</head>
+<body>
+
+    <div class="part-1">
+        <div class="container-xxl bg-danger">
+            <div class="d-flex p-1 justify-content-between align-items-center">
+                <img src="./img/logo.webp" alt="Logo" class="img-fluid" width="80px">
+                <label>
+                    <input  class="bg-transparent text-white border-0 border-bottom" type="search" required placeholder="Search Here">
+                    <button class="fa fa-search border-0 bg-danger" type="submit"></button>
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="part-2">
+        <div class="container-xxl bg-white">
+            <div class="d-flex justify-content-lg-center justify-content-sm-center justify-content-end align-center">
+                <div>
+                    <button class="btn btn-lg bg-danger text-white border-0 p-2  dropdown-toggle d-lg-none d-sm-none d-block ms-0 " type="button" data-bs-toggle="dropdown">Menu</button>
+                    <ul class="list-unstyled d-lg-none d-sm-none dropdown-menu">
+                        <li class="m-1 "><a class="text-danger dropdown-item text-decoration-none" href="#Home">Home</a></li>
+                        <li class="m-1 "><a class="text-danger text-decoration-none dropdown-item" href="#About">About Us</a></li>
+                        <li class="m-1 "><a class="text-danger text-decoration-none dropdown-item" href="#Service">Service</a></li>
+                        <li class="m-1 "><a class="text-danger text-decoration-none dropdown-item" href="#Pricing">Pricing</a></li>
+                        <li class="m-1 "><a class="text-danger text-decoration-none dropdown-item" href="#Blog">Blog</a></li>
+                        <li class="m-1 "><a class="text-danger text-decoration-none dropdown-item" href="#Contact">Contact</a></li>
+                        <li class="m-1" ><a class="text-decoration-none text-danger dropdown-item"  href="#">Register/Login</a></li>
+                        <li class="m-1"><a  class="text-decoration-none text-danger dropdown-item" href="#">❤️</a></li>
+                        <li class="m-2 "><a class="text-decoration-none text-danger dropdown-item"  href="#">🛒</a></li>
+                    
+                    </ul>
+                    <nav class="d-flex d-lg-block d-sm-block d-none">
+                        <ul class="list-unstyled">
+                            <li class="d-inline-block m-2  "><a class="text-danger text-decoration-none" href="#Home">Home</a></li>
+                            <li class="d-inline-block m-2 "><a class="text-danger text-decoration-none" href="#About">About Us</a></li>
+                            <li class="d-inline-block m-2 "><a class="text-danger text-decoration-none" href="#Service">Service</a></li>
+                            <li class="d-inline-block m-2 "><a class="text-danger text-decoration-none" href="#Pricing">Pricing</a></li>
+                            <li class="d-inline-block m-2 "><a class="text-danger text-decoration-none" href="#Blog">Blog</a></li>
+                            <li class="d-inline-block m-2 "><a class="text-danger text-decoration-none" href="#Contact">Contact</a></li>
+                            <li class="d-inline-block  m-2" ><a class="text-decoration-none text-danger"  href="#">Register/Login</a></li>
+                            <li class="d-inline-block  m-2"><a  class="text-decoration-none text-danger" href="#">❤️</a></li>
+                            <li class="d-inline-block m-2 "><a class="text-decoration-none text-danger"  href="#">🛒</a></li>
+                        
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part-3" id="Home">
+        <div class="container-xxl">
+            <div class="py-5">
+                <h1 class="text-danger fw-bolder">AMERICAN FOOD</h1>
+                <h2 class="text-danger bold"> The Best Taste Food</h2>
+                <div class="separator"></div>
+                <p class="text-danger"> Lorem ipsum dolor sit, amet consectetur <br> adipisicing elit. Perferendis fuga vero id ad <br> odit! Nesciunt inventore praesentium <br> adipisci  pariatur nihil iure! Voluptas mollitia </p>
+
+                <button class="btn cosbtn btn-lg bg-danger text-white border-0 p-2 "> ORDER NOW</button>
+                <button class="btn cosbtn btn-lg bg-danger text-white border-0  py-2">←</button>
+            </div>
+
+        </div>
+    </div>
+    <div class="part-4" id="About">
+        <div class="container-xxl">
+            <div class="text-center bg-white my-5">
+                <h2 class="text-danger p-5 position-relative"><span class="position-absolute start-0 end-0 fw-bolder ">ABOUT US</span> ABOUT US</h2>  
+                <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quidem,<br> nam cupiditate amet illum incidunt.</p>              
+            </div>
+
+            <div class="row mb-5">
+                <div class="col-lg-6 col-sm-6 col-12">
+                    <h2 class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, possimus!</h2>
+                    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem pariatur amet iusto delectus, quod placeat quaerat quam voluptates iure hic, dolore laudantium consectetur sequi. Id in sit ut quia?</p>
+                    <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem nesciunt laboriosam sit quos doloribus at?</p>
+                    <button class="cosbtn btn btn-lg bg-danger text-white border-0 p-2 "> READ MORE</button>
+                    <button class="cosbtn btn btn-lg bg-danger text-white border-0  py-2">←</button>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12">
+                    <div class="over-img position-relative p-3">
+                        <img src="./img/img1.webp" alt="" class="img-fluid">
+                        <div class="over position-absolute top-0 end-0 start-0 bottom-0 d-grid align-content-center justify-content-center">
+                            <a href=""><span class="fa fa-youtube-play text-danger fs-1"></span></a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="row mt-5">
+                <div class="col-lg-6 col-sm-6 col-12">
+                    <div class="over-img position-relative p-3">
+                        <img src="./img/img1.webp" alt="" class="img-fluid ">
+                        <div class="over position-absolute top-0 end-0 start-0 bottom-0 d-grid align-content-center justify-content-center">
+                            <a href=""><span class="fa fa-youtube-play text-danger fs-1"></span></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-12">
+                    <h2 class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, possimus!</h2>
+                    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo autem pariatur amet iusto delectus, quod placeat quaerat quam voluptates iure hic, dolore laudantium consectetur sequi. Id in sit ut quia?</p>
+                    <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem nesciunt laboriosam sit quos doloribus at?</p>
+                    <button class="cosbtn btn btn-lg bg-danger text-white border-0 p-2 "> READ MORE</button>
+                    <button class="cosbtn btn btn-lg bg-danger text-white border-0  py-2">←</button>
+                </div>
+                
+            </div>
+
+        </div>
+    </div>
+    <div class="part-5" id="Service">
+        <div class="container-xxl my-5">
+            <div class="text-center bg-white my-5">
+                <h2 class="text-danger p-5 position-relative"><span class="position-absolute start-0 end-0 fw-bolder ">ABOUT US</span> ABOUT US</h2>  
+                <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quidem,<br> nam cupiditate amet illum incidunt.</p>              
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-8 col-sm-6 col-12">
+                    <div class="d-flex justify-content-between text-danger my-2 bold">
+                        <h2>Peanut Butter</h2>
+                        <h2>$45</h2>
+                    </div>
+                    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum asperiores ab aspernatur ut numquam distinctio omnis eaque aut? Ex, reprehenderit. Modi natus beatae dolor nisi qui tempore</p>
+                    <button class="cosbtn btn btn-lg bg-danger text-white border-0 p-2 my-2"> READ MORE</button>
+                    
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="menu-img">
+                        <img src="./img/img2.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row mb-4">
+                <div class="col-lg-8 col-sm-6 col-12">
+                    <div class="d-flex justify-content-between text-danger my-2 bold">
+                        <h2>Peanut Butter</h2>
+                        <h2>$45</h2>
+                    </div>
+                    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum asperiores ab aspernatur ut numquam distinctio omnis eaque aut? Ex, reprehenderit. Modi natus beatae dolor nisi qui tempore</p>
+                    <button class="cosbtn btn btn-lg bg-danger text-white border-0 p-2 my-2"> READ MORE</button>
+                    
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="menu-img">
+                        <img src="./img/img2.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-sm-6 col-12">
+                    <div class="d-flex justify-content-between text-danger my-2 bold">
+                        <h2>Peanut Butter</h2>
+                        <h2>$45</h2>
+                    </div>
+                    <p class="text-danger">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam voluptatum asperiores ab aspernatur ut numquam distinctio omnis eaque aut? Ex, reprehenderit. Modi natus beatae dolor nisi qui tempore</p>
+                    <button class="cosbtn btn btn-lg bg-danger text-white border-0 p-2 my-2 "> READ MORE</button>
+                    
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <div class="menu-img">
+                        <img src="./img/img2.webp" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="part-6">
+        <div class="container-xxl py-5 ">
+            <span class="text-danger fs-2 my-3 fw-bolder">Special</span>
+            <h1 class="text-danger fw-bolder my-0">SALE 50% DISCOUNT</h1>
+            <span class="text-danger font-monospace fs-1">ALL FOOD PRODUCTS</span>
+            <p class="text-danger bold my-2">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Tempore praesentium ipsum  voluptate rerum <br> neque? Dolor possimus  </p>
+            <button class="cosbtn btn btn-lg bg-danger text-white border-0 p-2 my-2"> READ MORE</button>
+        </div>
+    </div>
+    <div class="part-7" id="Pricing">
+        <div class="container-xxl my-5">
+            <div class="text-center bg-white my-5">
+                <h2 class="text-danger p-5 position-relative"><span class="position-absolute start-0 end-0 fw-bolder ">ABOUT US</span> ABOUT US</h2>  
+                <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quidem,<br> nam cupiditate amet illum incidunt.</p>              
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-sm-4 col-12">
+                    <div class=" offer my-4 p-3">
+                        <div class="d-grid align-content-center justify-content-center bg-warning py-4">
+                            <h2 class="text-dark mt-3">Basic</h2>
+                            <h2 class="text-dark mb-3 fw-bolder">$35</h2>
+                        </div>
+                        <div class="d-grid align-content-center justify-content-center bg-success py-5">
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-12">
+                    <div class=" offer my-4 p-3">
+                        <div class="d-grid align-content-center justify-content-center bg-warning py-4">
+                            <h2 class="text-dark mt-3">Basic</h2>
+                            <h2 class="text-dark mb-3 fw-bolder">$35</h2>
+                        </div>
+                        <div class="d-grid align-content-center justify-content-center bg-success py-5">
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-12">
+                    <div class=" offer my-4 p-3">
+                        <div class="d-grid align-content-center justify-content-center bg-warning py-4">
+                            <h2 class="text-dark mt-3">Basic</h2>
+                            <h2 class="text-dark mb-3 fw-bolder">$35</h2>
+                        </div>
+                        <div class="d-grid align-content-center justify-content-center bg-success py-5">
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           <span class="text-white mb-2 fw-bolder">Lorem, ipsum dolor.</span>
+                           
+                        </div>
+                        
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <div class="part-8">
+        <div class="container-xxl py-5 text-end">
+            <span class="text-danger fs-2 my-3 fw-bolder">Special</span>
+            <h1 class="text-danger fw-bolder my-0">SALE 50% DISCOUNT</h1>
+            <span class="text-danger font-monospace fs-1">ALL FOOD PRODUCTS</span>
+            <p class="text-danger bold my-2">Lorem ipsum dolor sit amet consectetur adipisicing <br> elit. Tempore praesentium ipsum  voluptate rerum <br> neque? Dolor possimus  </p>
+            <button class="cosbtn btn btn-lg bg-danger text-white border-0 p-2 my-2"> READ MORE</button>      
+        </div>
+    </div>
+    <div class="part-9" id="Blog">
+        <div class="container-xxl">
+            <div class="text-center bg-white my-5">
+                <h2 class="text-danger p-5 position-relative"><span class="position-absolute start-0 end-0 fw-bolder ">ABOUT US</span> ABOUT US</h2>  
+                <p class="text-danger">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quidem,<br> nam cupiditate amet illum incidunt.</p>              
+            </div>
+            <div class="row mb-5">
+                <div class="col-lg-4 col-sm-4 col-12">
+                    <div class="over-img position-relative my-2 ">
+                        <img src="./img/img5.webp" alt="" class="img-fluid">
+                        <div class="over position-absolute top-0 end-0 start-0 bottom-0 p-2">
+                            <h3 class="text-dark">Lorem ipsum dolor sit amet</h3>
+                            <p class="text-rk">Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad ea soluta Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, illo.</p>
+                            <button class="cosbtn btn btn-sm bg-danger text-white border-0 p-2"> READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-12">
+                    <div class="over-img position-relative my-2">
+                        <img src="./img/img5.webp" alt="" class="img-fluid">
+                        <div class="over position-absolute top-0 end-0 start-0 bottom-0 p-2">
+                            <h3 class="text-dark">Lorem ipsum dolor sit amet</h3>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad ea soluta Lorem, ipsum dolor sit . Qui, illo.</p>
+                            <button class="cosbtn btn btn-sm bg-danger text-white border-0 p-2"> READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-4 col-12">
+                    <div class="over-img position-relative my-2">
+                        <img src="./img/img5.webp" alt="" class="img-fluid">
+                        <div class="over position-absolute top-0 end-0 start-0 bottom-0 p-2">
+                            <h3 class="text-dark">Lorem ipsum dolor sit amet</h3>
+                            <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit.Ad ea soluta Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui, illo.</p>
+                            <button class="cosbtn btn btn-sm bg-danger text-white border-0 p-2"> READ MORE</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="part-10" id="Contact">
+        <div class="container-xxl bg-success ">
+            <footer class="text-center p-4">
+                <img src="./img/logo.webp" alt="logo" class="img-fluid">
+                <h1 class="text-white fw-bolder">AMERICAN FOOD</h1>
+                <span class="text-white fs-3">Lorem ipsum dolor sit.</span>
+                <ul class="d-flex list-unstyled align-center justify-content-center mb-4">
+                    <li class="m-1 rounded-circle bg-white"><a href="" aria-label="link"><span class="fa fa-instagram p-1"></span></a></li>
+                    <li class="m-1 rounded-circle bg-white"><a href="" aria-label="link"><span class="fa fa-whatsapp p-1"></span></a></li>
+                    <li class=" m-1 rounded-circle bg-white"><a href="" aria-label="link"><span class="fa fa-facebook p-1"></span></a></li>
+                    <li class=" m-1 rounded-circle bg-white"><a href="" aria-label="link"><span class="fa fa-twitter p-1"></span></a></li>
+                </ul>  
+                <span class="fs-2"><a class="text-decoration-none text-white" href="">xyz.com</a></span>  
+
+            </footer>
+        </div>
+    </div>
+
+    
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>    
+</body>
+</html>
